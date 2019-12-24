@@ -1,0 +1,33 @@
+<h1>It works</h1>
+
+<div *ngFor="let product of products.products">
+    <div>
+        <label>
+        <img src="{{product.image}}">
+        </label>
+        <label>
+                {{product.brandName}}
+        </label>
+        <label> {{product.productName}}
+        </label>
+        <label>
+                {{product.quantity}}
+              </label>
+        <label>
+                {{product.price}}
+              </label>
+        <label>
+                {{product.mrp}}
+              </label>
+
+        <label>
+                {{product.offerText}}
+              </label>
+        <button class="button"> ADD CART</button>
+        <button class="button buttonRound"> + </button>
+        <button class="button buttonRound"> - </button>
+        <hr>
+
+    </div>
+
+</div>
