@@ -1,5 +1,15 @@
+html {
+    position: relative;
+    height: 100%;
+    box-sizing: border-box;
+}
+
 .buttonRound {
     border-radius: 50%;
+}
+
+.buttonCornerRound {
+    border-radius: 10%;
 }
 
 .button {
@@ -10,6 +20,80 @@
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 8px;
+    font-size: 15px;
     margin: 4px 2px;
+}
+
+.imageFloat {
+    float: left;
+    padding: 0px 15px 0px 0px;
+    display: block;
+    max-width: 150px;
+    max-height: 172px;
+    width: auto;
+    height: auto;
+    object-fit: fill;
+}
+
+.buttonMargin {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 50px;
+}
+
+.prodTitle {
+    margin: 0px;
+    padding: 0px;
+    /*background: green; */
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15pt;
+    font-weight: 600;
+    color: green;
+}
+
+.price {
+    font-weight: 600;
+}
+
+.footer {
+    background: rgb(197, 67, 175);
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 50px;
+    font-size: 20px;
+}
+
+body {
+    position: relative;
+    margin: 0;
+    padding-bottom: 6rem;
+    min-height: 100%;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+}
+
+.demo {
+    margin: 0 auto;
+    max-width: 640px;
+    width: 94%;
+}
+
+.checkoutBtn {
+    float: right;
+    border-radius: 10%;
+    background-color: #4CAF50;
+    margin-right: 100px;
+    margin-top: 5px;
+    padding: 10px;
+    display: block;
+    max-width: 300px;
+}
+
+.marBottom {
+    margin-bottom: 60px;
+}
+
+.circularMargin {
+    margin-left: 50px;
 }

@@ -1,33 +1,55 @@
-<h1>It works</h1>
-
-<div *ngFor="let product of products.products">
+<html>
+<hr>
+<div *ngFor="let product of products.products; index as i;" class="demo">
     <div>
-        <label>
-        <img src="{{product.image}}">
-        </label>
-        <label>
-                {{product.brandName}}
-        </label>
-        <label> {{product.productName}}
-        </label>
-        <label>
-                {{product.quantity}}
-              </label>
-        <label>
-                {{product.price}}
-              </label>
-        <label>
-                {{product.mrp}}
-              </label>
-
-        <label>
-                {{product.offerText}}
-              </label>
-        <button class="button"> ADD CART</button>
-        <button class="button buttonRound"> + </button>
-        <button class="button buttonRound"> - </button>
-        <hr>
-
+        <label class="imageFloat">
+			<div> <img width="140" height="140" src="{{product.image}}">
+				<br> {{product.offerText}} </div>
+		</label>
+        <div>
+            <br>
+            <label class="prodTitle"> {{product.brandName}} </label>
+            <br>
+            <label> {{product.productName}} </label>
+            <br>
+            <label> {{product.packQuantity}} </label>
+            <br>
+            <label> MRP {{product.mrp}} </label>
+            <br>
+            <label class="price"> Rs {{product.price}} </label>
+            <br>
+            <div class="buttonMargin">
+                <button class="button buttonCornerRound" (click)="addToCart(i)"> ADD CART</button>
+                <button class="button buttonRound circularMargin" (click)="incQuantity(i)"><strong> + </strong></button> <span>   {{product.quantity}}    </span>
+                <button class="button buttonRound" (click)="decQuantity(i)"><strong> - </strong></button>
+            </div>
+        </div>
     </div>
-
+    <div>
+        <hr> </div>
 </div>
+<div class="marBottom"> </div>
+<footer class="footer demo"> <span>
+    Quantity: {{qty}} <button class="checkoutBtn" (click)="openModal('custom-modal')">CHECKOUT</button>
+    <br>
+    Total: {{total}}
+    </span> <span>
+
+  </span>
+    <jw-modal id="custom-modal">
+        <h1 style="height:150px">
+            <br> Transaction Successful!
+            <br> Total Amount Paid : {{total}}
+        </h1>
+        <button (click)="closeModal('custom-modal');">Close</button>
+    </jw-modal>
+    <jw-modal id="noProd">
+        <h1 style="height:150px">
+            <br> No Product Selected!
+        </h1>
+        <button (click)="closeModal('custom-modal');">Close</button>
+    </jw-modal>
+
+</footer>
+
+</html>

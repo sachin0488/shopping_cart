@@ -8,11 +8,16 @@ import { ProductComponent } from './products/product.component';
 
 import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
+import { ModalService } from './model/model.service';
+import { ModalComponent } from './model/model.component';
+
+
 
 @NgModule({
   declarations: [
     AppComponent,
-    ProductComponent
+    ProductComponent,
+    ModalComponent
   ],
   imports: [
     BrowserModule,
@@ -20,7 +25,7 @@ import { HttpClientModule } from '@angular/common/http';
     FormsModule,
     HttpClientModule
   ],
-  providers: [],
+  providers: [ ModalService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

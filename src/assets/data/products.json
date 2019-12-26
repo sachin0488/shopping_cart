@@ -1,93 +1,103 @@
 {
     "products": [{
-            "brandName": "Tomato",
-            "productName": "xyz",
-            "quantity": "1",
-            "price": "350",
-            "mrp": "500",
-            "image": "https://www.bigbasket.com/media/uploads/p/s/40022638_3-fresho-tomato-local-organically-grown.jpg",
-            "offerText": "fresh tomato"
+            "brandName": "Britannia",
+            "productName": "Britannia Cake Muffills - Chocolate",
+            "packQuantity": "35 g",
+            "quantity": 0,
+            "price": 8,
+            "mrp": 10,
+            "image": "https://www.bigbasket.com/media/uploads/p/l/40075053_2-britannia-cake-muffills-chocolate.jpg",
+            "offerText": "You Save: Rs.2"
         },
         {
-            "brandName": "Tomato",
-            "productName": "xyz",
-            "quantity": "1",
-            "price": "350",
-            "mrp": "500",
-            "image": "https://www.bigbasket.com/media/uploads/p/s/40022638_3-fresho-tomato-local-organically-grown.jpg",
-            "offerText": "fresh tomato"
+            "brandName": "Pillsbury",
+            "productName": "Pillsbury Pillsbury Cake - Pastry Choco",
+            "packQuantity": "23 g",
+            "quantity": 0,
+            "price": 8,
+            "mrp": 10,
+            "image": "https://www.bigbasket.com/media/uploads/p/l/40120848_2-pillsbury-pillsbury-cake-pastry-choco.jpg",
+            "offerText": "You Save: Rs.2"
         },
         {
-            "brandName": "Tomato",
-            "productName": "xyz",
-            "quantity": "1",
-            "price": "350",
-            "mrp": "500",
-            "image": "https://www.bigbasket.com/media/uploads/p/s/40022638_3-fresho-tomato-local-organically-grown.jpg",
-            "offerText": "fresh tomato"
+            "brandName": "Britannia",
+            "productName": "Britannia Cakes - Pineapple + Fruity Fun + Orange Bites + Choco Chill",
+            "packQuantity": "4x60 g Multipack",
+            "quantity": 0,
+            "price": 54,
+            "mrp": 60,
+            "image": "https://www.bigbasket.com/media/uploads/p/l/1201333_1-britannia-cakes-pineapple-60gm-fruity-fun-60gm-orange-bites-60gm-choco-chill-60gm.jpg",
+            "offerText": "You Save: 10%"
         },
         {
-            "brandName": "Tomato",
-            "productName": "xyz",
-            "quantity": "1",
-            "price": "350",
-            "mrp": "500",
-            "image": "https://www.bigbasket.com/media/uploads/p/s/40022638_3-fresho-tomato-local-organically-grown.jpg",
-            "offerText": "fresh tomato"
+            "brandName": "Britannia",
+            "productName": "Britannia Cakes - Butter Blast",
+            "packQuantity": "55 g",
+            "quantity": 0,
+            "price": 15,
+            "mrp": 14,
+            "image": "https://www.bigbasket.com/media/uploads/p/l/259993_6-britannia-cakes-butter-blast.jpg",
+            "offerText": "You Save: Rs.1"
         },
         {
-            "brandName": "Tomato",
-            "productName": "xyz",
-            "quantity": "1",
-            "price": "350",
-            "mrp": "500",
-            "image": "https://www.bigbasket.com/media/uploads/p/s/40022638_3-fresho-tomato-local-organically-grown.jpg",
-            "offerText": "fresh tomato"
+            "brandName": "Britannia",
+            "productName": "Britannia Cake Muffills - Strawberry",
+            "packQuantity": "35 g",
+            "quantity": 0,
+            "price": 8,
+            "mrp": 10,
+            "image": "https://www.bigbasket.com/media/uploads/p/l/40075052_3-britannia-cake-muffills-strawberry.jpg",
+            "offerText": "You Save: Rs.2"
         },
         {
-            "brandName": "Tomato",
-            "productName": "xyz",
-            "quantity": "1",
-            "price": "350",
-            "mrp": "500",
-            "image": "https://www.bigbasket.com/media/uploads/p/s/40022638_3-fresho-tomato-local-organically-grown.jpg",
-            "offerText": "fresh tomato"
+            "brandName": "Britannia",
+            "productName": "Britannia Roll Yo! - Choco Swiss Roll",
+            "packQuantity": "30 g",
+            "quantity": 0,
+            "price": 17,
+            "mrp": 20,
+            "image": "https://www.bigbasket.com/media/uploads/p/l/40168236_4-britannia-roll-yo-choco-swiss-roll.jpg",
+            "offerText": "You Save: Rs.3"
         },
         {
-            "brandName": "Tomato",
-            "productName": "xyz",
-            "quantity": "1",
-            "price": "350",
-            "mrp": "500",
-            "image": "https://www.bigbasket.com/media/uploads/p/s/40022638_3-fresho-tomato-local-organically-grown.jpg",
-            "offerText": "fresh tomato"
+            "brandName": "Britannia",
+            "productName": "Britannia Roll Yo! - Strawberry Swiss Roll",
+            "packQuantity": "30 g",
+            "quantity": 0,
+            "price": 20,
+            "mrp": 17,
+            "image": "https://www.bigbasket.com/media/uploads/p/l/40168237_5-britannia-roll-yo-strawberry-swiss-roll.jpg",
+            "offerText": "You Save: Rs.3"
         },
         {
-            "brandName": "Tomato",
-            "productName": "xyz",
-            "quantity": "1",
-            "price": "350",
-            "mrp": "500",
-            "image": "https://www.bigbasket.com/media/uploads/p/s/40022638_3-fresho-tomato-local-organically-grown.jpg",
-            "offerText": "fresh tomato"
+            "brandName": "Pillsbury",
+            "productName": "Pillsbury Pillsbury Pastry Cake Strawberry",
+            "packQuantity": "92 g",
+            "quantity": 0,
+            "price": 34,
+            "mrp": 40,
+            "image": "https://www.bigbasket.com/media/uploads/p/l/40125240_3-pillsbury-pillsbury-pastry-cake-strawberry.jpg",
+            "offerText": "You Save: 15%"
         },
         {
-            "brandName": "Tomato",
-            "productName": "xyz",
-            "quantity": "1",
-            "price": "350",
-            "mrp": "500",
-            "image": "https://www.bigbasket.com/media/uploads/p/s/40022638_3-fresho-tomato-local-organically-grown.jpg",
-            "offerText": "fresh tomato"
+            "brandName": "Pillsbury",
+            "productName": "Pillsbury Pillsbury Pastry Cake - Strawberry",
+
+            "quantity": 0,
+            "price": 8,
+            "mrp": 10,
+            "image": "https://www.bigbasket.com/media/uploads/p/l/40125241_1-pillsbury-pillsbury-pastry-cake-strawberry.jpg",
+            "offerText": "You Save: Rs.2"
         },
         {
-            "brandName": "Tomato",
-            "productName": "xyz",
-            "quantity": "1",
-            "price": "350",
-            "mrp": "500",
-            "image": "https://www.bigbasket.com/media/uploads/p/s/40022638_3-fresho-tomato-local-organically-grown.jpg",
-            "offerText": "fresh tomato"
+            "brandName": "Britannia",
+            "productName": "Britannia Cake - Nut & Raisin Romance",
+            "packQuantity": "2x150 g Multipack",
+            "quantity": 0,
+            "price": 80,
+            "mrp": 100,
+            "image": "https://www.bigbasket.com/media/uploads/p/l/1201307_1-britannia-cake-nut-raisin-romance.jpg",
+            "offerText": "You Save: 20%"
         }
     ]
 }
