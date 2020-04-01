@@ -1,12 +1,14 @@
 <html>
-<hr>
-<div *ngFor="let product of products.products; index as i;" class="demo">
-    <div>
-        <label class="imageFloat">
-			<div> <img width="140" height="140" src="{{product.image}}">
-				<br> {{product.offerText}} </div>
-		</label>
-        <div>
+
+<div>
+    <div *ngFor="let product of products.products; index as i;" class="demo container">
+        <div class="item1">
+            <img width="140" height="140" src="{{product.image}}">
+            <br> {{product.offerText}}
+
+        </div>
+
+        <div class="item2">
             <br>
             <label class="prodTitle"> {{product.brandName}} </label>
             <br>
@@ -23,10 +25,16 @@
                 <button class="button buttonRound circularMargin" (click)="incQuantity(i)"><strong> + </strong></button> <span>   {{product.quantity}}    </span>
                 <button class="button buttonRound" (click)="decQuantity(i)"><strong> - </strong></button>
             </div>
+
         </div>
+        <div>
+            <hr>
+        </div>
+        <div>
+            <hr>
+        </div>
+
     </div>
-    <div>
-        <hr> </div>
 </div>
 <div class="marBottom"> </div>
 <footer class="footer demo"> <span>
